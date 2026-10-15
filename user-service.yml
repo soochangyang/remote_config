@@ -4,7 +4,7 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false;MODE=MySQL
     username: sa
-    password: '{cipher}ec11bda93ffe6be5f4350ea0998ae80ff222337883ff45d06cb53e8ffd225c9f'
+    password: '{cipher}AYB/HIT0rcRkgCp1+wRRro9H7t2M9oYUAYUqlemZCC7PWMl7aCaPCJYOEEuDafdBNgDn7+/XMEQ6JUC7D4XX+Gt6s15a/rIQo3GUbaFB03SV9hsimSpQRLNyDXOqI3UWFnMe1WHwt4yinIRToVnK5nnEJ8K4lwLyNmjIW+tO2nbdUVESafmzQSESBhdrqmrjKpIvGXcgousZVqJQZdz0z0IHXjsKsp7sFsOVyM642MF/CGp9Y6mDdGThh2wv5REOpkCUta6PqGe8s38l9XhXvgGKIN9puRe4NqL54iRn3DXdhqwIkBP1UjX9u8RKYlgl8f/ShAfvD+5NOhjibq0pHrtTFYACOUolFriJdrigP/JvpnX/xgGoaYQSCwV/IP8aXLC4q1oYpPXMD9n5c3pWkRA7oN+WTuH1IOma41OM9NhD/gK8l/K7iQT9m/HyUVP8x9UAxF8VFlDqnQqRhZp8Y9gG0PrqGipFLIWuf87GYuD3cpK7a63RxY6t3NQrbxr0jkhV27EbQriYHr3/SPH2cjMnod+uh9gRai/CCzHkTgi4RQ=='
 
 h2:
   console:
