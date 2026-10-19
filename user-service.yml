@@ -15,8 +15,10 @@ order-service:
   #url: http://127.0.0.1:50000/order-service/%s/orders
   # LoadBalanced적용이 된경우
   url: http://ORDER-SERVICE/order-service/%s/orders
+  exception: 
+    order_is_empty: User's order is empty
 
-
-logging:
-  level:
-    com.scyang.userservice.client.OrderServiceClient: DEBUG
+# user-service 의 application.yml에 설정해도됨.
+#logging:
+#  level:
+#    com.scyang.userservice.client.OrderServiceClient: DEBUG
