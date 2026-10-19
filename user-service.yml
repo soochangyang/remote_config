@@ -16,3 +16,7 @@ order-service:
   # LoadBalanced적용이 된경우
   url: http://ORDER-SERVICE/order-service/%s/orders
 
+
+logging:
+  level:
+    com.scyang.userservice.client.OrderServiceClient: DEBUG
